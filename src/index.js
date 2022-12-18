@@ -33,6 +33,11 @@ app.use(
 //===================== Global Middleware for All Route =====================//
 app.use('/', route)
 
+app.use("/", (req, res) => {
+    res.json("Hello!")
+})
+
+
 //===================== It will Handle error When You input Wrong Route =====================//
 app.use(function (req, res) {
     var err = new Error("Not Found.")
