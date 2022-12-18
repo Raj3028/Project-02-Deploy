@@ -2,10 +2,10 @@
   "name": "open_to_intern_project",
   "version": "1.0.0",
   "description": "Open to Intern Project(Project-02)(Group-21)",
-  "main": "./src/index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/index.js"
+    "start": "node ./index.js"
   },
   "author": "RAJESH KUMAR SAHOO, ABHISHEK TIWARI, Y GURU BHASKAR, RAHUL KUMAR",
   "license": "ISC",

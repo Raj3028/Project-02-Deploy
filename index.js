@@ -1,7 +1,7 @@
 //=====================Importing Module and Packages=====================//
 const express = require('express');
 const bodyParser = require('body-parser');
-const route = require('./routes/route.js');
+const route = require('./src/routes/route');
 const { default: mongoose } = require('mongoose');
 const moment = require('moment');
 const app = express();
